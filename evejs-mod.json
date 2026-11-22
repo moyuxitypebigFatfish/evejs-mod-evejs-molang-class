@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.2/evejs-molang-class-1.0.2.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.3/evejs-molang-class-1.0.3.zip"
     }
   ],
   "evejsVersions": [
@@ -24,18 +24,18 @@
   "highlights": [],
   "history": [],
   "id": "evejs-molang-class",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-22",
   "readme": [
     "在 EveJS 单机服里新增一艘**米玛塔尔掠夺舰「魔狼级」**，与原来的恶狼级并存。typeID `91901`，克隆自恶狼级 `28665`。"
   ],
   "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
   "requiresRestart": true,
-  "sha256": "353caf18b0f914f93f5476086b31610a829879f663789350ee0a021d7d59ca26",
+  "sha256": "4a8a9bfdb17387a15246055b25808416b8e885700b2b07b204ec679f7968fa20",
   "shots": [
     "shots/01-机库双船.png",
     "shots/02-特性.jpg"
   ],
-  "sizeBytes": 288042,
+  "sizeBytes": 290148,
   "tags": [
     "舰船",
     "掠夺舰",
@@ -43,5 +43,5 @@
     "新船",
     "魔狼级"
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
