@@ -1,11 +1,11 @@
 {
   "author": {
-    "id": "au-mwo15tn5ydy0",
-    "keyId": "4606305c8b09",
+    "id": "au-mwxs4qg1v75i",
+    "keyId": "8596438f3c87",
     "name": "神秘大肥鱼"
   },
   "category": "玩法",
-  "changelog": "修复了一些问题",
+  "changelog": "适配3724492端",
   "conflicts": [],
   "delisted": false,
   "description": "在单机服里新增一艘米玛塔尔掠夺舰「魔狼级」（typeID 91901，克隆自恶狼级），与原版恶狼级并存。服务端启动时内存注入 itemTypes/shipTypes/typeDogma/shipDogmaAttributes；首次启动自动调用 tools/patch-client.js 给客户端打补丁（客户端需未运行），之后按 client-patched.json 跳过；客户端补丁写 types/typedogma/dogmaeffects/typelist/本地化/infobubbles/涂装，可 --restore 一键还原。",
@@ -14,28 +14,28 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.6/evejs-molang-class-1.0.6.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.7/evejs-molang-class-1.0.7.zip"
     }
   ],
   "evejsVersions": [
-    "261115.2"
+    "261125.3"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "evejs-molang-class",
-  "publishedAt": "2026-11-24",
+  "publishedAt": "2026-11-27",
   "readme": [
     "新增一艘**米玛塔尔掠夺舰「魔狼级」**，与原来的恶狼级并存。typeID `91901`，克隆自恶狼级 `28665`。"
   ],
   "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
   "requiresRestart": true,
-  "sha256": "b03c20cc68ebb7e81aa0577602664df6813a64341edd820371e3da619c65331a",
+  "sha256": "0dc0aa4a0ed8a0ba225bcd7e791c635e9538c4ea477709e8b016a3420dce479f",
   "shots": [
     "shots/01-机库双船.png",
     "shots/02-特性.jpg"
   ],
-  "sizeBytes": 290781,
+  "sizeBytes": 291486,
   "tags": [
     "舰船",
     "掠夺舰",
@@ -43,5 +43,5 @@
     "新船",
     "魔狼级"
   ],
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
